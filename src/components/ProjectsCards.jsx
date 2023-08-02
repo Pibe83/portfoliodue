@@ -4,6 +4,7 @@ import visitaniene from '../immagini/VisitAniene.png';
 import spotify from '../immagini/Spotify-Clone.png'
 import linkedin from '../immagini/linkedin.png'
 import movieapp from '../immagini/movieappbis.png'
+import working from '../immagini/Purple Modern Work in Progress Mousepad.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
@@ -24,7 +25,7 @@ const ProfileCard = () => {
             <h2>Usa TRavel</h2>
             <ul>
               <li><a href="https://github.com/Pibe83/USA-Travel-App" target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
-              <li><a href="https://usa-travel-app.vercel.app/" target="_blank"><FontAwesomeIcon icon={faGlobe} /></a></li>
+              <li><a href="https://https-github-com-pibe83-usa-travel-1lxbuuyb9-pibe83.vercel.app/Show.jsx" target="_blank"><FontAwesomeIcon icon={faGlobe} /></a></li>
 
             </ul>
           </div>
@@ -94,8 +95,10 @@ const ProfileCard = () => {
         {/* Card 6 */}
         <div className="image-area">
           <div className="img-wrapper">
-            <img src="https://images.pexels.com/photos/1220757/pexels-photo-1220757.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Atul Prajapati" />
-            <h2>David James</h2>
+           
+            <img src={working} />
+            <h2>App in React/Redux</h2>
+
             <ul>
               <li><a href="https://github.com/atuljustano" target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
               <li><a href="https://www.instagram.com/atulkprajapati2000/" target="_blank"><FontAwesomeIcon icon={faGlobe} /></a></li>
